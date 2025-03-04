@@ -1,0 +1,25 @@
+{
+  "name": "solar-ui",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Li",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+	"devDependencies": {
+		"typescript": "^5.8.2",
+		"@types/node": "^22.13.9",
+		"@types/react": "^19.0.10",
+		"@types/react-dom": "^19.0.4"
+	},
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
